@@ -36,7 +36,7 @@ const Header = () => {
             <button className='text-[16px] hidden  sm:hidden md:block lg:block rounded-md hover:bg-blue-600 duration-200 bg-blue-500 font-semibold px-9 py-2.5 text-[#fff] shadow border-none outline-none'>Register</button>
             
             {
-               toggle ? <AiOutlineClose onClick={() => setToggle(!toggle)} className='text-[35px] text-blue-600 duration-200 lg:hidden block'/> : <AiOutlineMenu  onClick={() => setToggle(!toggle)} className='text-[35px] text-blue-600 duration-200 lg:hidden block' />
+               toggle ? <AiOutlineClose onClick={() => setToggle(!toggle)} className='text-[26px] text-blue-600 duration-200 lg:hidden block'/> : <AiOutlineMenu  onClick={() => setToggle(!toggle)} className='text-[26px]  text-blue-600 duration-200 lg:hidden block' />
             }
             
             
