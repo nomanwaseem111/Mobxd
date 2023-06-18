@@ -7,7 +7,7 @@ import hero from '../assets/image/hero.png'
 
 const HeroSection = () => {
   return (
-    <div className="w-full mt-[130px] lg:mt-[200px]">
+    <div className="w-full mt-[130px] lg:mt-[190px]">
       <div className="max-w-[1240px]  p-4 mx-auto flex justify-between flex-wrap">
         <div className="w-full lg:w-5/12">
           <p className='text-slate-800 mb-3 text-4xl font-bold leading-snug sm:text-[42px] lg:text-[40px] xl:text-[42px]"'>
