@@ -13,7 +13,7 @@ const FeaturesSection = () => {
            <p className='text-2xl font-bold text-slate-700 sm:text-3xl'>Provide Our Features</p>
            <img src={features} alt="feature"  className="rounded-lg mt-[40px]  lg:w-[600px] "/>
          </div>
-         <div className='w-[680px] mt-[97px]'>
+         <div className='w-[680px] mt-[50px] lg:mt-[97px]'>
           <p className='mb-3 text-slate-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint explicabo perferendis voluptatibus sunt enim officiis.</p>
           <p className='mt-[10px]  text-slate-500'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint laudantium, cum, quaerat nulla possimus magni odio ullam ratione vitae id fuga aliquam sed molestiae? Voluptas.</p>
           <button className="w-full rounded-md bg-blue-500 px-8 py-2.5 mt-[40px] font-semibold text-white shadow-md shadow-blue-500/20 hover:bg-blue-600 duration-200 sm:w-auto">
