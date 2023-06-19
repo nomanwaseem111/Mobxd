@@ -21,13 +21,13 @@ const Blog = () => {
               <div className='max-h-52 w-full overflow-hidden rounded-t-xl'>
                 <img src={Blog1} alt="blog-1" className="w-full rounded-lg mb-2" />
               </div>
-              <span className="mr-2 rounded-md bg-blue-50 px-3 py-1 text-sm text-slate-600">
+              <span className="mr-2 rounded-md bg-blue-50 px-3 py-1 text-sm text-slate-600 ">
                 Services
               </span>
               <p className="block pt-4 font-medium capitalize text-slate-800 hover:text-blue-500">
                 Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit.
               </p>
-              <div className="flex mt-10">
+              <div className="flex mt-5">
                 <img
                   src={user1}
                   className="mr-3 h-10 w-10 rounded-full object-cover"
@@ -45,8 +45,10 @@ const Blog = () => {
 
           <div className="w-full duration-200 hover:scale-95">
             <div className='rounded-b-xl px-5 pb-5 pt-3 shadow-md shadow-blue-500/10"  '>
-              <img src={Blog2} alt="blog-1" className="w-full rounded-lg mb-2" />
-              <span className="mr-2 rounded-md bg-blue-50 px-3 py-1  text-sm text-slate-600">
+            <div className='max-h-52 w-full overflow-hidden rounded-t-xl mb-2'>
+              <img src={Blog2} alt="blog-1" className="w-full rounded-lg" />
+               </div>
+              <span className="mr-2 rounded-md bg-blue-50 px-3 py-1  text-sm text-slate-600 ">
                 Services
               </span>
               <span className="mr-2 rounded-md bg-blue-50 px-3 py-1  text-sm text-slate-600">
@@ -72,7 +74,9 @@ const Blog = () => {
           </div>
           <div className="w-full duration-200 hover:scale-95">
             <div className='rounded-b-xl px-5 pb-5 pt-3 shadow-md shadow-blue-500/10" '>
-              <img src={Blog3} alt="blog-1" className="w-full rounded-lg mb-2" />
+               <div className="max-h-52 w-full overflow-hidden rounded-t-xl mb-2">
+              <img src={Blog3} alt="blog-1" className="w-full rounded-lg " />
+              </div>
               <span className="mr-2 rounded-md bg-blue-50 px-3 py-1 text-sm text-slate-600">
                 Website
               </span>
