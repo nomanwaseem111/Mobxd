@@ -1,5 +1,4 @@
 import React from 'react'
-import About from '../components/About'
 import FeaturesSection from '../components/FeaturesSection'
 import Frequently from '../components/Frequently'
 import HeroSection from '../components/HeroSection'
