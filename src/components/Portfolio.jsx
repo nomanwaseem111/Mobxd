@@ -22,41 +22,39 @@ const Portfolio = () => {
             Consequatur deleniti sit dolor numquam non. Et.
           </p>
         </div>
-        <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
-          <div >
-            <img src={por1} alt="port-1" className="rounded-2xl" />
+        <div className="grid sm:grid-cols-4 md:grid-cols-4   grid-cols-1 gap-10">
+          <div className="sm:col-span-2 md:col-span-1" >
+            <img src={por1} alt="port-1" className="rounded-2xl h-[200px] w-full object-cover " />
           </div>
 
-          <div >
-            <img src={por2} alt="port-1"  className="rounded-2xl" />
+          <div className="sm:col-span-2 md:col-span-1">
+            <img src={por2} alt="port-1"  className="rounded-2xl h-[200px] w-full object-cover " />
           </div>
 
-          <div >
-            <img src={por3} alt="port-1"  className="rounded-2xl "/>
+          <div className="sm:col-span-full md:col-span-2" >
+            <img src={por3} alt="port-1"  className="rounded-2xl h-[200px] w-full object-cover "/>
           </div>
 
-          <div >
-            <img src={por4} alt="port-1"  className="rounded-2xl "/>
+          <div className="sm:col-span-2 md:col-span-3">
+            <img src={por4} alt="port-1" className="rounded-2xl h-[200px] w-full object-cover "/>
           </div>
 
-          <div >
-            <img src={por5} alt="port-1"  className="rounded-2xl "/>
+          <div  className="sm:col-span-2 md:col-span-1">
+            <img src={por5} alt="port-1"  className="rounded-2xl h-[200px] w-full object-cover "/>
           </div>
 
-          <div >
-            <img src={por6} alt="port-1"  className="rounded-2xl "/>
+          <div className="sm:col-span-2 md:col-span-1">
+            <img src={por6} alt="port-1"  className="rounded-2xl h-[200px] w-full object-cover "/>
           </div>
 
-          <div  >
-            <img src={por7} alt="port-1"  className="rounded-2xl"/>
+          <div className="sm:col-span-2 md:col-span-1" >
+            <img src={por7} alt="port-1"  className="rounded-2xl h-[200px] w-full object-cover "/>
           </div>
 
-          <div >
-            <img src={por3} alt="port-1"  className="rounded-2xl "/>
-          </div>
+       
 
-          <div >
-            <img src={por8} alt="port-1"  className="rounded-2xl  "/>
+          <div  className="sm:col-span-full md:col-span-2">
+            <img src={por8} alt="port-1"  className="rounded-2xl h-[200px] w-full object-cover "/>
           </div>
         </div>
       </div>

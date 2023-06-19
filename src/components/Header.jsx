@@ -9,7 +9,7 @@ const Header = () => {
 
     return (
     <>
-     <div className='w-full h-[100px] fixed top-[0px] bg-[#fff] '>
+     <div className='w-full h-[100px] fixed top-[0px] bg-[#fff] z-50'>
        <div className='max-w-[1240px] px-[30px] sm:px-[20px] md:px-[26px]  lg:px-2 border-b mx-auto h-[95px] md:h-[90px] lg:h-[95px] pt-8 md:pt-6 lg:pt-6'>
           <div className='flex justify-between items-center '>
             <img className=' w-[115px] md:w-[140px] lg:w-[180px] h-auto' src={logo} alt="logo"/>

@@ -4,16 +4,19 @@ import Frequently from '../components/Frequently'
 import HeroSection from '../components/HeroSection'
 import Portfolio from '../components/portfolio'
 import Services from '../components/Services'
+import About from '../components/About'
+import Blog from '../components/Blog'
 
 const Home = () => {
   return (
     <>
      <HeroSection/>
      <FeaturesSection/>
-    {/* <About/> */}
+    <About/>
     <Services/>
     <Frequently/>
     <Portfolio/>
+    <Blog/>
     </>
   )
 }
