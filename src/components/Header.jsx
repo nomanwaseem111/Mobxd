@@ -14,12 +14,12 @@ const Header = () => {
           <div className='flex justify-between items-center '>
             <img className=' w-[115px] md:w-[140px] lg:w-[180px] h-auto' src={logo} alt="logo"/>
             <ul className='hidden lg:flex gap-8 '>
-             <li className='text-[16px] text-[#334415] hover:text-blue-600 font-medium'>Home</li>
-             <li className='text-[16px] text-[#334415] hover:text-blue-600 font-medium'>About</li>
-             <li className='text-[16px] text-[#334415] hover:text-blue-600 font-medium'>Services</li>
-             <li className='text-[16px] text-[#334415] hover:text-blue-600 font-medium'>Portfolio</li>
-             <li className='text-[16px] text-[#334415] hover:text-blue-600 font-medium'>Blog</li>
-             <li className='text-[16px] text-[#334415] hover:text-blue-600 font-medium'>Contact</li>
+             <li className='text-[16px] text-[#334415] hover:text-blue-600 font-medium cursor-pointer'>Home</li>
+             <li className='text-[16px] text-[#334415] hover:text-blue-600 font-medium cursor-pointer'>About</li>
+             <li className='text-[16px] text-[#334415] hover:text-blue-600 font-medium cursor-pointer'>Services</li>
+             <li className='text-[16px] text-[#334415] hover:text-blue-600 font-medium cursor-pointer'>Portfolio</li>
+             <li className='text-[16px] text-[#334415] hover:text-blue-600 font-medium cursor-pointer'>Blog</li>
+             <li className='text-[16px] text-[#334415] hover:text-blue-600 font-medium cursor-pointer'>Contact</li>
 
             </ul>
              {/* <h1>Responsive Menu</h1> */}
