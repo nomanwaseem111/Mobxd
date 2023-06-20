@@ -20,7 +20,7 @@ const FeaturesSection = () => {
               Get Started
             </button>
             <div data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="2000">
             <div className='flex justify-between items-center mt-[60px] flex-wrap lg:mx-0 md:mx-auto'>
              
              <div className='shadow-lg bg-[#fff] px-4 py-8 rounded-xl w-[100%]  lg:mt-0 mt-[10px] lg:w-[215px] flex flex-col justify-center items-center'>

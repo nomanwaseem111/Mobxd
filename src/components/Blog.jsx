@@ -18,7 +18,7 @@ const Blog = () => {
           data-aos="fade-right"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
         >
           <div className="grid md:grid-cols-3 grid-cols-1 gap-10 mt-10">
             <div className="w-full duration-200 hover:scale-95">

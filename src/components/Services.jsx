@@ -14,7 +14,7 @@ const Services = () => {
             Consequatur deleniti sit dolor numquam non. Et.
           </p>
         </div>
-        <div data-aos="fade-right" data-aos-duration="2000">
+        <div data-aos="fade-right" data-aos-duration="1000">
 
         <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 xl:gap-8">
           

@@ -38,7 +38,7 @@ const About = () => {
            
          <div data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+     data-aos-duration="1000">
 
            <img src={aboutImage} alt="about-Image" className='max-h-[500px] md:max-h-max'/>
            </div>

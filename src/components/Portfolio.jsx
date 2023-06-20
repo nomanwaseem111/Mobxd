@@ -23,7 +23,7 @@ const Portfolio = () => {
           </p>
         </div>
         <div data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+     data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
 
 
         <div className="grid sm:grid-cols-4 md:grid-cols-4   grid-cols-1 gap-10">

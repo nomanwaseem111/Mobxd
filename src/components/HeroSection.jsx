@@ -53,7 +53,7 @@ const HeroSection = () => {
       
         <div data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1500">
+     data-aos-duration="1000">
 
 
         <img  src={hero} alt="hero-image" className="w-[300px] lg:mx-0 mx-auto  sm:w-[550px] md:w-[650px] lg:w-[590px] lg:mt-0 mt-10 md:mx-auto sm:mx-auto" />

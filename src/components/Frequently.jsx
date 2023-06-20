@@ -10,7 +10,7 @@ const Frequently = () => {
         <div className='grid lg:grid-cols-2 sm:grid-cols-1'>
           
           <div className='max-w-[550px] md:mx-auto lg:mx-0  mx-auto  '>
-          <div data-aos="fade-right"  data-aos-duration="2000">
+          <div data-aos="fade-right"  data-aos-duration="1000">
 
 
             <img src={faq} alt="faq-images"/>
