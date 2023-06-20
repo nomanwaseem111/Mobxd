@@ -5,7 +5,7 @@ import Blog3 from "../assets/image/blog-3.png";
 import user1 from "../assets/image/user-1.png";
 import user2 from "../assets/image/user-2.png";
 import user3 from "../assets/image/user-3.png";
-import Slide from "react-reveal/Slide";
+
 const Blog = () => {
   return (
     <div className="w-full" id="blog">
