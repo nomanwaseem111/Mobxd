@@ -3,7 +3,6 @@ import features from '../assets/image/features.png'
 import icon1 from '../assets/image/icon-1.png'
 import icon2 from '../assets/image/icon-2.png'
 import icon3 from '../assets/image/icon-3.png'
-import Fade from 'react-reveal/Fade';
 
 const FeaturesSection = () => {
   return (

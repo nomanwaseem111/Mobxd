@@ -1,6 +1,5 @@
 import React from 'react'
 import faq from '../assets/image/faq.png'
-import Slide from 'react-reveal/Slide'
 
 const Frequently = () => {
   return (
