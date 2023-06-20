@@ -1,6 +1,5 @@
 import React from "react";
-import { AiFillSignal } from "react-icons/ai";
-
+import Slide from 'react-reveal/Slide'
 const Services = () => {
   return (
     <div className="py-16" id="services">
@@ -16,6 +15,8 @@ const Services = () => {
           </p>
         </div>
         <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 xl:gap-8">
+          <Slide left>
+          
           <div className="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/10 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-blue-500 ">
             <div className="text-[50px] text-blue-500 group-hover:text-white">
               <ion-icon
@@ -58,6 +59,7 @@ const Services = () => {
             </p>
           </div>
 
+         
           <div className="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/10 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-blue-500 ">
             <div className="text-[50px] text-blue-500 group-hover:text-white">
               <ion-icon name="diamond-outline"></ion-icon>
@@ -96,6 +98,7 @@ const Services = () => {
               accusamus nihil veritatis ad. Odit, veritatis!
             </p>
           </div>
+          </Slide>
         </div>
       </div>
     </div>

@@ -4,12 +4,13 @@ import brand2 from "../assets/image/brand-2.png";
 import brand3 from "../assets/image/brand-3.png";
 import brand4 from "../assets/image/brand-4.png";
 import hero from '../assets/image/hero.png'
+import Slide from 'react-reveal/Slide';
 
 const HeroSection = () => {
   return (
     <div className="w-full mt-[130px] lg:mt-[190px]" id="hero">
       <div className="max-w-[1240px]  p-4 mx-auto flex justify-between flex-wrap">
-        <div className="w-full lg:w-5/12">
+        <div className="w-full lg:w-5/12 ">
           <p className='text-slate-800 mb-3 text-4xl font-bold leading-snug sm:text-[42px] lg:text-[40px] xl:text-[42px]"'>
             Everything you need to run your online{" "}
             <span className="text-blue-600">business</span>
@@ -50,7 +51,15 @@ const HeroSection = () => {
             />
           </div>
         </div>
-        <img src={hero} alt="hero-image" className="w-[300px] lg:mx-0 mx-auto sm:w-[550px] md:w-[650px] lg:w-[590px] lg:mt-0 mt-10 md:mx-auto sm:mx-auto" />
+      
+        <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+
+
+        <img  src={hero} alt="hero-image" className="w-[300px] lg:mx-0 mx-auto  sm:w-[550px] md:w-[650px] lg:w-[590px] lg:mt-0 mt-10 md:mx-auto sm:mx-auto" />
+        </div>
+        
       </div>
      
     </div>

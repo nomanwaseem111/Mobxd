@@ -5,7 +5,7 @@ import Blog3 from "../assets/image/blog-3.png";
 import user1 from "../assets/image/user-1.png";
 import user2 from "../assets/image/user-2.png";
 import user3 from "../assets/image/user-3.png";
-
+import Slide from 'react-reveal/Slide'
 const Blog = () => {
   return (
     <div className="w-full" id="blog">
@@ -14,8 +14,12 @@ const Blog = () => {
         <h5 className="text-black text-3xl  font-extrabold ">
           From Our Latest Blog
         </h5>
+        <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" data-aos-duration="2000">
 
         <div className="grid md:grid-cols-3 grid-cols-1 gap-10 mt-10">
+          
           <div className="w-full duration-200 hover:scale-95">
             <div className="rounded-b-xl px-5 pb-5 pt-3 shadow-md shadow-blue-500/10 ">
               <div className='max-h-52 w-full overflow-hidden rounded-t-xl'>
@@ -98,6 +102,9 @@ const Blog = () => {
               </div>
             </div>
           </div>
+         
+          
+        </div>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react'
-import { BiBriefcase } from "react-icons/bi";
 import aboutImage from '../assets/image/about.png'
+import Fade from 'react-reveal/Fade';
 
 const About = () => {
   return (
@@ -34,9 +34,15 @@ const About = () => {
            </div>
             <button className='w-full rounded-md bg-blue-500 px-8 py-2.5 font-semibold text-white shadow-md shadow-blue-500/20 hover:bg-blue-600 duration-200 md:w-max'>Get Started</button>
          </div>
-
+         
          <div className='mt-8 flex justify-center md:mt-0 md:w-5/12'>
+           
+         <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+
            <img src={aboutImage} alt="about-Image" className='max-h-[500px] md:max-h-max'/>
+           </div>
          </div>
 
 

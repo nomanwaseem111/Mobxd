@@ -22,7 +22,12 @@ const Portfolio = () => {
             Consequatur deleniti sit dolor numquam non. Et.
           </p>
         </div>
+        <div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+
+
         <div className="grid sm:grid-cols-4 md:grid-cols-4   grid-cols-1 gap-10">
+        
           <div className="sm:col-span-2 md:col-span-1" >
             <img src={por1} alt="port-1" className="rounded-2xl h-[200px] w-full object-cover " />
           </div>
@@ -56,6 +61,7 @@ const Portfolio = () => {
           <div  className="sm:col-span-full md:col-span-2">
             <img src={por8} alt="port-1"  className="rounded-2xl h-[200px] w-full object-cover "/>
           </div>
+        </div>
         </div>
       </div>
     </div>
