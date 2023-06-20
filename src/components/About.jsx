@@ -4,7 +4,7 @@ import aboutImage from '../assets/image/about.png'
 
 const About = () => {
   return (
-     <div className='mt-[100px]' >
+     <div className='mt-[100px]' id='about' >
      <div className='mx-auto max-w-7xl px-8 md:px-6'>
        <div className='md:flex md:justify-between md:gap-6'>
          <div className='md:w-6/12'>

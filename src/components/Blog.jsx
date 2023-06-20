@@ -8,7 +8,7 @@ import user3 from "../assets/image/user-3.png";
 
 const Blog = () => {
   return (
-    <div className="w-full">
+    <div className="w-full" id="blog">
       <div className="mx-auto max-w-7xl  px-8 md:px-6">
         <span className="text-blue-500 font-bold">Our Blog</span>
         <h5 className="text-black text-3xl  font-extrabold ">

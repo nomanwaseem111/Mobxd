@@ -3,7 +3,7 @@ import { AiFillSignal } from "react-icons/ai";
 
 const Services = () => {
   return (
-    <div className="py-16">
+    <div className="py-16" id="services">
       <div className="mx-auto max-w-7xl px-8 md:px-6 p-2 ">
         <div className="mb-10 text-center">
           <span className="font-medium text-blue-500">Our Services</span>
