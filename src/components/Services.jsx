@@ -2,8 +2,8 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="py-16" id="services">
-      <div className="mx-auto max-w-7xl px-8 md:px-6 p-2 ">
+    <div  id="services">
+      <div className="mx-auto max-w-7xl px-8 py-10 md:px-6 p-2  ">
         <div className="mb-10 text-center">
           <span className="font-medium text-blue-500">Our Services</span>
           <h1 className='text-2xl font-bold text-slate-700 sm:text-3xl"'>

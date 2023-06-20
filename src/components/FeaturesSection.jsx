@@ -6,8 +6,8 @@ import icon3 from '../assets/image/icon-3.png'
 
 const FeaturesSection = () => {
   return (
-    <div className='w-full '>
-       <div className='mx-auto max-w-7xl px-8 md:px-6   flex justify-between flex-wrap '>
+    <div className='w-full  '>
+       <div className='mx-auto max-w-7xl  px-8 md:px-6 py-5  flex justify-between flex-wrap '>
          <div className='md:w-[100%] lg:w-[500px] w-[500px] sm:w-[100%] '>
           <h1 className='text-blue-500 font-medium'>Our Features</h1>
            <p className='text-2xl font-bold text-slate-700 sm:text-3xl'>Provide Our Features</p>

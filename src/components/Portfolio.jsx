@@ -10,8 +10,8 @@ import por8 from "../assets/image/p-8.png";
 
 const Portfolio = () => {
   return (
-    <div className="py-16" id="portfolio">
-      <div className="mx-auto max-w-7xl px-8 md:px-6 p-2 ">
+    <div  id="portfolio">
+      <div className="mx-auto max-w-7xl py-10 px-8 md:px-6 p-2  ">
         <div className="mb-10 text-center">
           <span className="font-medium text-blue-500">Our Portfolio</span>
           <h1 className='text-2xl font-bold text-slate-700 sm:text-3xl"'>
