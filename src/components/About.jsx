@@ -1,6 +1,5 @@
 import React from 'react'
 import aboutImage from '../assets/image/about.png'
-import Fade from 'react-reveal/Fade';
 
 const About = () => {
   return (

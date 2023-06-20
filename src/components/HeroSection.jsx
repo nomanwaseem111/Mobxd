@@ -4,7 +4,6 @@ import brand2 from "../assets/image/brand-2.png";
 import brand3 from "../assets/image/brand-3.png";
 import brand4 from "../assets/image/brand-4.png";
 import hero from '../assets/image/hero.png'
-import Slide from 'react-reveal/Slide';
 
 const HeroSection = () => {
   return (
