@@ -7,6 +7,8 @@ const About = () => {
      <div className='mx-auto max-w-7xl px-8 md:px-6 py-20 '>
        <div className='md:flex md:justify-between md:gap-6'>
          <div className='md:w-6/12'>
+         <div data-aos="fade-down" data-aos-duration="1000">
+
            <div className='mb-5 sm:mb-10'>
              <span className='font-medium text-blue-500'>About Us</span>
              <h1 className='text-2xl font-bold text-slate-700 sm:text-3xl'>Creative Marketing agency</h1>
@@ -32,6 +34,7 @@ const About = () => {
              <p className='ml-4 max-w-md font-medium text-slate-600'>Id quos et quidem perspiciatis similique! Rerum, natus temporibus.</p>
            </div>
             <button className='w-full rounded-md bg-blue-500 px-8 py-2.5 font-semibold text-white shadow-md shadow-blue-500/20 hover:bg-blue-600 duration-200 md:w-max'>Get Started</button>
+            </div>
          </div>
          
          <div className='mt-8 flex justify-center md:mt-0 md:w-5/12'>

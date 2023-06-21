@@ -9,10 +9,15 @@ const HeroSection = () => {
   return (
     <div className="w-full " id="hero">
       <div className="max-w-7xl pt-[150px] md:pt-[200px] lg:pt-[200px] p-4 mx-auto flex justify-between   flex-wrap ">
+      
+
         <div className="w-full lg:w-5/12  md:px-5 lg:px-0">
+        <div data-aos="fade-right"           data-aos-duration="1000">
+
           <p className="text-slate-800 mb-3 text-4xl font-bold leading-snug sm:text-[42px] lg:text-[40px] md:w-[680px] lg:w-[500px] xl:text-[42px] ">
             Everything you need to run your online{" "}
             <span className="text-blue-600">business</span>
+
           </p>
           <p className="text-slate-500 mb-8 max-w-[480px] text-base">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
@@ -49,13 +54,14 @@ const HeroSection = () => {
               className="w-32 cursor-pointer rounded-lg border border-blue-300/20 bg-white px-5 py-3 shadow-md shadow-blue-500/5 duration-200 hover:scale-95 sm:w-36"
             />
           </div>
+</div>
+
         </div>
 
         <div
-          data-aos="fade-down"
-          data-aos-easing="linear"
+          data-aos="fade-left"
+          // data-aos-easing="linear"
           data-aos-duration="1000"
-          className=""
         >
       
           <img
