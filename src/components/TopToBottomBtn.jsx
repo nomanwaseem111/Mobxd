@@ -26,7 +26,7 @@ const TopToBottomBtn = () => {
   return (
     <>
       {isVisible && (
-        <div className="bg-blue-500 p-2  rounded-full w-14 h-14 fixed  bottom-14 right-8 md:right-14">
+        <div className="bg-blue-500 p-2  rounded-full w-14 h-14 fixed  bottom-14 right-5 md:right-14">
           <div
             className="absolute top-4 left-4  text-[24px] text-white cursor-pointer"
             onClick={goToBtn}
