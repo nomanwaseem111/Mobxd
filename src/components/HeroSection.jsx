@@ -59,7 +59,7 @@ const HeroSection = () => {
         </div>
 
         <div
-          data-aos="fade-left"
+          data-aos="fade-down"
           // data-aos-easing="linear"
           data-aos-duration="1000"
         >
