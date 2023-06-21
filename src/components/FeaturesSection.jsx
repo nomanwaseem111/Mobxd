@@ -9,11 +9,11 @@ const FeaturesSection = () => {
     <div className='w-full  '>
        <div className='mx-auto max-w-7xl  px-8 md:px-6 py-5  flex justify-between flex-wrap '>
          <div className='md:w-[100%] lg:w-[500px] w-[500px] sm:w-[100%] '>
-          <div data-aos="fade-right"           data-aos-duration="1000" >
+          
           <h1 className='text-blue-500 font-medium'>Our Features</h1>
            <p className='text-2xl font-bold text-slate-700 sm:text-3xl'>Provide Our Features</p>
            <img src={features} alt="feature"  className="rounded-lg mt-[40px]  lg:w-[600px]  "/>
-           </div>
+          
          </div>
 
          <div className='md:w-[100%] lg:w-[680px] mt-[50px] lg:mt-[97px]'>

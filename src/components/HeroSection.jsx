@@ -12,7 +12,7 @@ const HeroSection = () => {
       
 
         <div className="w-full lg:w-5/12  md:px-5 lg:px-0">
-        <div data-aos="fade-right"           data-aos-duration="1000">
+        
 
           <p className="text-slate-800 mb-3 text-4xl font-bold leading-snug sm:text-[42px] lg:text-[40px] md:w-[680px] lg:w-[500px] xl:text-[42px] ">
             Everything you need to run your online{" "}
@@ -54,7 +54,7 @@ const HeroSection = () => {
               className="w-32 cursor-pointer rounded-lg border border-blue-300/20 bg-white px-5 py-3 shadow-md shadow-blue-500/5 duration-200 hover:scale-95 sm:w-36"
             />
           </div>
-</div>
+
 
         </div>
 
