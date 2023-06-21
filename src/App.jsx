@@ -7,17 +7,21 @@ import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 import Portfolio from './components/Portfolio'
 import Services from './components/Services'
+import TopToBottomBtn from './components/TopToBottomBtn'
 import Home from './pages/Home'
 
 const App = () => {
   return (
     <>
+      
        <Header/>
+     
        <Routes>
         <Route path='/' element={<Home/>} />
        
 
        </Routes>
+       <TopToBottomBtn/>
        <Footer/>
     </>
   )
