@@ -9,13 +9,13 @@ const FeaturesSection = () => {
     <div className='w-full  '>
        <div className='mx-auto max-w-7xl  px-8 md:px-6 py-5  flex justify-between flex-wrap '>
          <div className='md:w-[100%] lg:w-[500px] w-[500px] sm:w-[100%] '>
-          <div data-aos="zoom-in"
+          <div data-aos="fade-down"
      data-aos-duration="2000">
           <h1 className='text-blue-500 font-medium'>Our Features</h1>
            <p className='text-2xl font-bold text-slate-700 sm:text-3xl'>Provide Our Features</p>
            <img src={features} alt="feature"  className="rounded-lg mt-[40px]  lg:w-[600px]  "/>
            </div>
-         </div>
+        
 
          <div className='md:w-[100%] lg:w-[680px] mt-[50px] lg:mt-[97px]'>
           <p className='mb-3 text-slate-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint explicabo perferendis voluptatibus sunt enim officiis.</p>
@@ -23,6 +23,8 @@ const FeaturesSection = () => {
           <button className="w-full rounded-md bg-blue-500 px-8 py-2.5 mt-[40px] font-semibold text-white shadow-md shadow-blue-500/20 hover:bg-blue-600 duration-200 sm:w-auto">
               Get Started
             </button>
+            </div>
+
             <div data-aos="fade-up"
      data-aos-duration="2000">
             <div className='flex justify-between items-center mt-[60px] flex-wrap lg:mx-0 md:mx-auto'>
