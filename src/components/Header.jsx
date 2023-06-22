@@ -7,8 +7,6 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const [toggle, setToggle] = useState(false);
 
-
-
   return (
     <>
       <div className="w-full h-[100px] fixed top-[0px] bg-[#fff] z-50 ">
@@ -20,8 +18,6 @@ const Header = () => {
               alt="logo"
             />
 
-
-            
             <ul className="hidden lg:flex gap-8 ">
               <Link
                 to="/"
@@ -32,7 +28,6 @@ const Header = () => {
                 className="text-[16px] text-[#334415] hover:text-blue-600 font-medium cursor-pointer"
               >
                 Home
-             
               </Link>
               <Link
                 to="/home2"
@@ -44,9 +39,7 @@ const Header = () => {
               >
                 Home2
               </Link>
-        
-     
-             
+
               <Link
                 to="about"
                 spy={true}
@@ -57,7 +50,7 @@ const Header = () => {
               >
                 About
               </Link>
-              
+
               <Link
                 to="services"
                 spy={true}
