@@ -40,7 +40,7 @@ const Header = () => {
                 Home2
               </Link>
 
-              <Link
+               <Link
                 to="about"
                 spy={true}
                 smooth={true}
@@ -50,8 +50,8 @@ const Header = () => {
               >
                 About
               </Link>
-
-              <Link
+              
+               <Link
                 to="services"
                 spy={true}
                 smooth={true}

@@ -18,9 +18,9 @@ const App = () => {
       <Routes>
         <Route path="/home2" element={<Home2 />} />
       </Routes>
+    
    
-
-      <TopToBottomBtn />
+     <TopToBottomBtn />
       <Footer />
     </>
   );
