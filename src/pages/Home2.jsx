@@ -9,7 +9,7 @@ const Home2 = () => {
       <span >450 Northwind Rd</span>
     </div>
     <div class="img2">
-      <span>ginger & lemon</span>
+      <span>Noman & lemon</span>
     </div>
     <div class="img3">
       <span>trekking</span>
