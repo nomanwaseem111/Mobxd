@@ -1,30 +1,29 @@
-import React from 'react'
-import { Route, Routes } from 'react-router-dom'
-import About from './components/About'
-import Blog from './components/Blog'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import HeroSection from './components/HeroSection'
-import Portfolio from './components/Portfolio'
-import Services from './components/Services'
-import TopToBottomBtn from './components/TopToBottomBtn'
-import Home from './pages/Home'
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+
+import TopToBottomBtn from "./components/TopToBottomBtn";
+import Home from "./pages/Home";
+import Home2 from "./pages/Home2";
 
 const App = () => {
   return (
     <>
-      
-       <Header/>
-     
-       <Routes>
-        <Route path='/' element={<Home/>} />
-       
+      <Header />
 
-       </Routes>
-       <TopToBottomBtn/>
-       <Footer/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+      <Routes>
+        <Route path="/home2" element={<Home2 />} />
+      </Routes>
+   
+
+      <TopToBottomBtn />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

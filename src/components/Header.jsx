@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import logo from "../assets/image/logo.png";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
+// import { Link } from "react-scroll";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
+
+
 
   return (
     <>
@@ -16,17 +19,34 @@ const Header = () => {
               src={logo}
               alt="logo"
             />
+
+
+            
             <ul className="hidden lg:flex gap-8 ">
               <Link
-                to="hero"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
+                to="/"
+                // spy={true}
+                // smooth={true}
+                // offset={-100}
+                // duration={500}
                 className="text-[16px] text-[#334415] hover:text-blue-600 font-medium cursor-pointer"
               >
                 Home
+             
               </Link>
+              <Link
+                to="/home2"
+                // spy={true}
+                // smooth={true}
+                // offset={-100}
+                // duration={500}
+                className="text-[16px] text-[#334415] hover:text-blue-600 font-medium cursor-pointer"
+              >
+                Home2
+              </Link>
+        
+     
+             
               <Link
                 to="about"
                 spy={true}
@@ -37,6 +57,7 @@ const Header = () => {
               >
                 About
               </Link>
+              
               <Link
                 to="services"
                 spy={true}
