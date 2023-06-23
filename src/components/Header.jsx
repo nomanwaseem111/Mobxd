@@ -39,7 +39,26 @@ const Header = () => {
               >
                 Home2
               </Link>
-
+              <Link
+                to="/home3"
+                // spy={true}
+                // smooth={true}
+                // offset={-100}
+                // duration={500}
+                className="text-[16px] text-[#334415] hover:text-blue-600 font-medium cursor-pointer"
+              >
+                Home3
+              </Link>
+              <Link
+                to="/home4"
+                // spy={true}
+                // smooth={true}
+                // offset={-100}
+                // duration={500}
+                className="text-[16px] text-[#334415] hover:text-blue-600 font-medium cursor-pointer"
+              >
+                Home4
+              </Link>
                <Link
                 to="about"
                 spy={true}
