@@ -1,5 +1,6 @@
 import React from "react";
 import aboutImage from "../assets/image/about.png";
+import { easeInOut, motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -52,17 +53,20 @@ const About = () => {
           </div>
 
           <div className="mt-8 flex justify-center md:mt-0 md:w-5/12">
-            <div
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="1000"
+            <motion.div
+              // data-aos="flip-left"
+              // data-aos-easing="ease-out-cubic"
+              // data-aos-duration="1000"
+
+              animate={{ y: [0, -40, 0] }}
+              transition={{ repeat: Infinity, duration: 3 }}
             >
               <img
                 src={aboutImage}
                 alt="about-Image"
                 className="max-h-[500px] md:max-h-max"
               />
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

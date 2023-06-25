@@ -10,8 +10,11 @@ import Home3 from "./pages/Home3";
 import Home4 from "./pages/Home4";
 
 const App = () => {
+ 
+ 
   return (
     <>
+ 
       <Header />
 
       <Routes>
@@ -30,7 +33,8 @@ const App = () => {
    
      <TopToBottomBtn />
       <Footer />
-    </>
+      </>
+
   );
 };
 

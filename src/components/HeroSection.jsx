@@ -6,13 +6,35 @@ import brand4 from "../assets/image/brand-4.png";
 import hero from "../assets/image/hero.png";
 import { motion, spring } from "framer-motion";
 
+
+  
+const animationOne = {
+     
+       offScreen:{x: "-100vw"},
+       onScreen:{ x:0,
+          transition:{ duration:1.2}
+       }
+}
+
+
 const HeroSection = () => {
-  return (
-    <motion.div initial={{opacity:0}} animate={{opacity:1}} className="w-full " id="hero">
+
+return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      className="w-full "
+      id="hero"
+    >
       <div className="max-w-7xl pt-[150px] md:pt-[200px] lg:pt-[200px] p-4 mx-auto flex justify-between   flex-wrap ">
-        <motion.div     initial={{x:"-100vw"}}
-          animate={{ x:0}}
-          transition={{duration:1.2}} className="w-full lg:w-5/12  md:px-5 lg:px-0">
+        <motion.div
+          variants={animationOne}
+          initial="offScreen"
+          animate="onScreen"
+
+          
+          className="w-full lg:w-5/12  md:px-5 lg:px-0"
+        >
           <p className="text-slate-800 mb-3 text-4xl font-bold leading-snug sm:text-[42px] lg:text-[40px] md:w-[680px] lg:w-[500px] xl:text-[42px] ">
             Everything you need to run your online{" "}
             <span className="text-blue-600">business</span>
@@ -23,10 +45,16 @@ const HeroSection = () => {
             sapiente expedita ut.
           </p>
           <div>
-            <motion.button whileHover={{ scale:1.1}}  className="w-full rounded-md bg-blue-500 px-8 py-2.5 font-semibold text-white shadow-md shadow-blue-500/20 hover:bg-blue-600 duration-200 sm:w-auto">
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              className="w-full rounded-md bg-blue-500 px-8 py-2.5 font-semibold text-white shadow-md shadow-blue-500/20 hover:bg-blue-600 duration-200 sm:w-auto"
+            >
               Get Started
             </motion.button>
-            <motion.button whileHover={{scale:1.1}} className="mt-4 box-border w-full rounded-md border border-blue-500/20 px-8 py-2.5 font-semibold text-blue-500 shadow-md shadow-blue-500/10 duration-200 sm:ml-4 sm:mt-0 sm:w-auto ">
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              className="mt-4 box-border w-full rounded-md border border-blue-500/20 px-8 py-2.5 font-semibold text-blue-500 shadow-md shadow-blue-500/10 duration-200 sm:ml-4 sm:mt-0 sm:w-auto "
+            >
               Register Now
             </motion.button>
           </div>
@@ -59,10 +87,9 @@ const HeroSection = () => {
           // data-aos-easing="linear"
           // data-aos-duration="1000"
           // initial={{x:"100vw"}}
-          initial={{x:"100vw"}}
-          animate={{ x:0}}
-          transition={{duration:1.2}} 
-         
+          initial={{ x: "100vw" }}
+          animate={{ x: 0 }}
+          transition={{ duration: 1.2 }}
         >
           <img
             src={hero}

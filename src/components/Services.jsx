@@ -1,4 +1,5 @@
 import React from "react";
+import {motion} from 'framer-motion'
 
 const Services = () => {
   return (
@@ -14,11 +15,22 @@ const Services = () => {
             Consequatur deleniti sit dolor numquam non. Et.
           </p>
         </div>
-        <div data-aos="fade-right"       data-aos-duration="1000">
+        <div 
+        // data-aos="fade-right"      
+        //  data-aos-duration="1000"
+         
+         >
 
         <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 xl:gap-8">
           
-          <div className="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/10 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-blue-500 ">
+          <motion.div 
+            
+
+            initial={{ x : "-100vw"}}
+            animate={{x:0}}
+            transition={{ type:"spring", duration:4 }}
+
+           className="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/10 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-blue-500 ">
             <div className="text-[50px] text-blue-500 group-hover:text-white">
               <ion-icon
                 name="bar-chart-outline"
@@ -32,9 +44,11 @@ const Services = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
               accusamus nihil veritatis ad. Odit, veritatis!
             </p>
-          </div>
+          </motion.div>
 
-          <div className="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/10 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-blue-500 ">
+          <motion.div  initial={{ x : "-100vw"}}
+            animate={{x:0}}
+            transition={{ type:"spring", duration:3 }} className="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/10 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-blue-500 ">
             <div className="text-[50px] text-blue-500 group-hover:text-white">
             <ion-icon name="airplane-outline"></ion-icon>
             </div>
@@ -45,9 +59,11 @@ const Services = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
               accusamus nihil veritatis ad. Odit, veritatis!
             </p>
-          </div>
+          </motion.div>
 
-          <div className="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/10 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-blue-500 ">
+          <motion.div  initial={{ x : "-100vw"}}
+            animate={{x:0}}
+            transition={{ type:"spring", duration:2 }} className="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/10 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-blue-500 ">
             <div className="text-[50px] text-blue-500 group-hover:text-white">
               <ion-icon name="speedometer-outline"></ion-icon>
             </div>
@@ -58,10 +74,12 @@ const Services = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
               accusamus nihil veritatis ad. Odit, veritatis!
             </p>
-          </div>
+          </motion.div>
 
                   
-         <div className="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/10 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-blue-500 ">
+         <motion.div  initial={{ x : "-100vw"}}
+            animate={{x:0}}
+            transition={{ type:"spring", duration:4 }}  className="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/10 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-blue-500 ">
             <div className="text-[50px] text-blue-500 group-hover:text-white">
               <ion-icon name="diamond-outline"></ion-icon>
             </div>
@@ -72,9 +90,11 @@ const Services = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
               accusamus nihil veritatis ad. Odit, veritatis!
             </p>
-          </div>
+          </motion.div>
 
-          <div className="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/10 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-blue-500 ">
+          <motion.div initial={{ x : "-100vw"}}
+            animate={{x:0}}
+            transition={{ type:"spring", duration:3 }} className="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/10 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-blue-500 ">
             <div className="text-[50px] text-blue-500 group-hover:text-white">
               <ion-icon name="file-tray-full-outline"></ion-icon>
             </div>
@@ -85,9 +105,11 @@ const Services = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
               accusamus nihil veritatis ad. Odit, veritatis!
             </p>
-          </div>
+          </motion.div>
 
-          <div className="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/10 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-blue-500 ">
+          <motion.div initial={{ x : "-100vw"}}
+            animate={{x:0}}
+            transition={{ type:"spring", duration:2 }} className="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/10 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-blue-500 ">
             <div className="text-[50px] text-blue-500 group-hover:text-white">
               <ion-icon name="cloud-download-outline"></ion-icon>
             </div>
@@ -98,7 +120,7 @@ const Services = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
               accusamus nihil veritatis ad. Odit, veritatis!
             </p>
-          </div>
+          </motion.div>
          
 
         </div>

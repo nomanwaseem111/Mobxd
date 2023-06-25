@@ -11,7 +11,7 @@ const Home = () => {
 
 
   return (
-    <>
+    < >
      <HeroSection/>
      <FeaturesSection/>
     <About/>
