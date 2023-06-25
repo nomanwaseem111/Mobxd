@@ -3,16 +3,17 @@ import features from '../assets/image/features.png'
 import icon1 from '../assets/image/icon-1.png'
 import icon2 from '../assets/image/icon-2.png'
 import icon3 from '../assets/image/icon-3.png'
+import {motion} from 'framer-motion'
 
 const FeaturesSection = () => {
   return (
     <div className='w-full  '>
        <div className='mx-auto max-w-7xl  px-8 md:px-6 py-5  flex justify-between flex-wrap '>
-         <div className='md:w-[100%] lg:w-[500px] w-[500px] sm:w-[100%] '>
+         <motion.div initial={{ x:"-100vw"}} animate={{x:0}} transition={{ duration:3}} className='md:w-[100%] lg:w-[500px] w-[500px] sm:w-[100%] '>
           <h1 className='text-blue-500 font-medium'>Our Features</h1>
            <p className='text-2xl font-bold text-slate-700 sm:text-3xl'>Provide Our Features</p>
            <img src={features} alt="feature"  className="rounded-lg mt-[40px]  lg:w-[600px]  "/>
-         </div>
+         </motion.div>
          <div className='md:w-[100%] lg:w-[680px] mt-[50px] lg:mt-[97px]'>
           <p className='mb-3 text-slate-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint explicabo perferendis voluptatibus sunt enim officiis.</p>
           <p className='mt-[10px]  text-slate-500'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint laudantium, cum, quaerat nulla possimus magni odio ullam ratione vitae id fuga aliquam sed molestiae? Voluptas.</p>

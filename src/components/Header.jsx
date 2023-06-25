@@ -3,6 +3,7 @@ import logo from "../assets/image/logo.png";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
 // import { Link } from "react-scroll";
+import {motion} from 'framer-motion'
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -179,9 +180,9 @@ const Header = () => {
               </Link>
             </ul>
             <div className="lg:w-auto w-[220px] flex justify-end sm:flex sm:justify-end md:justify-between lg:justify-around items-center">
-              <button className="text-[16px] hidden  sm:hidden md:block lg:block rounded-md hover:bg-blue-600 duration-200 bg-blue-500 font-semibold px-9 py-2.5 text-[#fff] shadow border-none outline-none">
+              <motion.button whileHover={{ scale:1.1}} className="text-[16px] hidden  sm:hidden md:block lg:block rounded-md hover:bg-blue-600 duration-200 bg-blue-500 font-semibold px-9 py-2.5 text-[#fff] shadow border-none outline-none">
                 Register
-              </button>
+              </motion.button>
 
               {toggle ? (
                 <AiOutlineClose
