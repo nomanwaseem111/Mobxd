@@ -58,7 +58,7 @@ const About = () => {
               // data-aos-easing="ease-out-cubic"
               // data-aos-duration="1000"
 
-              animate={{ y: [0, -40, 0] }}
+              animate={{ y: [0, -20, 0] }}
               transition={{ repeat: Infinity, duration: 3 }}
             >
               <img

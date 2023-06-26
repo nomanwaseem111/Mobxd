@@ -1,18 +1,39 @@
-import React from "react";
+import React,{useState} from "react";
 import brand1 from "../assets/image/brand-1.png";
 import brand2 from "../assets/image/brand-2.png";
 import brand3 from "../assets/image/brand-3.png";
 import brand4 from "../assets/image/brand-4.png";
 import hero from "../assets/image/hero.png";
-import { motion, spring } from "framer-motion";
+import { motion, useAnimationControls } from "framer-motion";
 
-const animationOne = {
-  offScreen: { x: "-100vw" },
-  onScreen: { x: 0, transition: { duration: 1.2 } },
-};
+
 
 const HeroSection = () => {
-  return (
+
+    const controls = useAnimationControls()
+    const [isPlaying, setIsPlaying] = useState(false)
+ 
+    const rubberBand = () => {
+
+       controls.start({
+            transform:[
+                "scale3d(1,1,1)",
+                "scale3d(1.4,.55,1)",
+                "scale3d(.75,1.25,1)",
+                "scale3d(1.25,.85,1)",
+                "scale3d(.9,1.05,1)",
+                "scale3d(1,1,1)",
+
+            ],
+            // transition:{
+            //     times:[0,.4,.6,.7,.8,.9]
+            // }
+
+        })
+        setIsPlaying(true)
+    }
+ 
+    return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -21,15 +42,21 @@ const HeroSection = () => {
     >
       <div className="max-w-7xl pt-[150px] md:pt-[200px] lg:pt-[200px] p-4 mx-auto flex justify-between   flex-wrap ">
         <motion.div
-          variants={animationOne}
-          initial="offScreen"
-          animate="onScreen"
+         
+          initial={{y:"-10vh"}}
+          animate={{y:0}}
+          transition={{ duration:2}}
           className="w-full lg:w-5/12  md:px-5 lg:px-0"
         >
-          <p className="text-slate-800 mb-3 text-4xl font-bold leading-snug sm:text-[42px] lg:text-[40px] md:w-[680px] lg:w-[500px] xl:text-[42px] ">
+          <motion.p animate={controls} onMouseOver={() => {
+              if(!isPlaying)
+                rubberBand()
+          }}
+           onAnimationComplete={() => setIsPlaying(false)}
+           className="text-slate-800 mb-3 text-4xl font-bold leading-snug sm:text-[42px] lg:text-[40px] md:w-[680px] lg:w-[500px] xl:text-[42px] ">
             Everything you need to run your online{" "}
             <span className="text-blue-600">business</span>
-          </p>
+          </motion.p>
           <p className="text-slate-500 mb-8 max-w-[480px] text-base">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
             alias voluptate esse blanditiis molestiae repudiandae fugiat eius
@@ -78,9 +105,7 @@ const HeroSection = () => {
           // data-aos-easing="linear"
           // data-aos-duration="1000"
           // initial={{x:"100vw"}}
-          initial={{ x: "100vw" }}
-          animate={{ x: 0 }}
-          transition={{ duration: 1.2 }}
+          
         >
           <img
             src={hero}

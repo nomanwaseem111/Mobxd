@@ -1,27 +1,20 @@
-import React from 'react'
+import { motion, useScroll } from "framer-motion";
+import { LoremIpsum } from "../components/LoremIpsum";
+import '../Styles.css'
 
+export default function Home2() {
+  const { scrollYProgress } = useScroll();
 
-const Home2 = () => {
- 
   return (
-    <div class="parallax">
-    <div class="img1">
-      <span >450 Northwind Rd</span>
-    </div>
-    <div class="img2">
-      <span>Noman & lemon</span>
-    </div>
-    <div class="img3">
-      <span>trekking</span>
-    </div>
-    <div class="img4">
-      <span>flowers</span>
-    </div>
-    <div class="img5">
-      <span>flowers</span>
-    </div>
-  </div>
-  )
+    <>
+      <motion.div
+        className="progress-bar"
+        style={{ scaleX: scrollYProgress }}
+      />
+      <h1>
+        <code>useScroll</code> demo
+      </h1>
+      <LoremIpsum />
+    </>
+  );
 }
-
-export default Home2;

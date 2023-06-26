@@ -5,7 +5,7 @@ import HeroSection from '../components/HeroSection'
 import Portfolio from '../components/Portfolio';
 import Services from '../components/Services'
 import About from '../components/About'
-import Blog from '../components/Blog'
+import Blog from '../components/Blog';
 
 const Home = () => {
 
