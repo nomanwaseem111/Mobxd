@@ -19,7 +19,10 @@ const HeroSection = () => {
       className="w-full "
       id="hero"
     >
-      <div className="max-w-7xl pt-[150px] md:pt-[200px] lg:pt-[200px] p-4 mx-auto flex justify-between   flex-wrap ">
+      <div
+        className="max-w-7xl pt-[150px] md:pt-[200px] lg:pt-[200px] p-4 mx-auto flex justify-between   flex-wrap "
+        id="hero"
+      >
         <motion.div
           variants={animationOne}
           initial="offScreen"
